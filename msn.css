@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f2;
+    padding: 0% 8%;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+nav ul{
+    margin: 0;
+    padding: 2%;
+}
+.rightnav{
+    float: right;
+}
+nav{
+    height: 109px;
+    margin: 0;
+}
+.leftnav{
+    float: left;
+    margin-top: 8px;
+}
+.leftnav img{
+    height: 29px;
+    width: 77px;
+}
+#srch{
+    height: 46px;
+    width: 630px;
+    border: none;
+    font-size: large;
+    padding: 3%;
+    box-shadow: 0px 0px 4px 0px #918f8f;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#btn{
+    height: 46px;
+    width: 69.6px;
+    margin: -3px;
+    border: none;
+    background-color: #1683d8;
+    box-shadow: 1px 1px 4px 0px gray;
+    color: #f4f4f2;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 18px;
+}
+.area2{
+    display: flex;
+    /* margin: 0% 8%; */
+}
+.area2 li{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0.2%
+}
+.area2 li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+    font-family: "Segoe UI Semibold", "Segoe WP Semibold", "Segoe WP", "Segoe UI", Arial, sans-serif;
+}
+.area2 li img{
+    height: 27px;
+    width: 27px;
+}
+.logoside p{
+    margin: 0;
+    font-size: 9px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    opacity: 0.6;
+}
+.logoside{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+.leftmargine{
+    margin-left: 6%;
+}
